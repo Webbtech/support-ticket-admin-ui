@@ -1,0 +1,36 @@
+{
+  "name": "support-ticket-admin-ui",
+  "version": "0.0.1",
+  "description": "Support Ticket Administration UI",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webbtech/support-ticket-admin-ui.git"
+  },
+  "author": "Ron Dyck <rond@webbtech.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "babel-plugin-react-transform": "^1.1.1",
+    "css-loader": "^0.23.0",
+    "html-webpack-plugin": "^1.6.2",
+    "react-transform-hmr": "^1.0.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-merge": "^0.3.0"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Webbtech/support-ticket-admin-ui/issues"
+  },
+  "homepage": "https://github.com/Webbtech/support-ticket-admin-ui#readme"
+}
